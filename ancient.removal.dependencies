@@ -1,0 +1,17 @@
+[
+  {
+    "remote":"ancient",
+    "repository":"hardware_qcom-caf_sm8150_display",
+    "target_path":"hardware/qcom-caf/sm8150/display"
+  },
+  {
+    "remote":"ancient",
+    "repository":"hardware_qcom-caf_sm8150_audio",
+    "target_path":"hardware/qcom-caf/sm8150/audio"
+  },
+  {
+    "remote":"ancient",
+    "repository":"hardware_qcom-caf_sm8150_media",
+    "target_path":"hardware/qcom-caf/sm8150/media"
+  }
+]
