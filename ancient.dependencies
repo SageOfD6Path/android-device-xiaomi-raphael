@@ -13,13 +13,6 @@
    "clone-depth"  : "1"
    },
    {
-   "remote"       : "github",
-   "repository"   : "kdrag0n/proton-clang",
-   "target_path"  : "prebuilts/clang/host/linux-x86/clang-proton",
-   "branch"       : "master",
-   "clone-depth"  : "1"
-   },
-   {
    "remote"       :"github",
    "repository"   :"ArrowOS/android_hardware_qcom_audio",
    "target_path"  :"hardware/qcom-caf/sm8150/audio",
