@@ -410,6 +410,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_raphael
 
+#Remove Unwanted Packages
+PRODUCT_PACKAGES += \
+   RemovePackages
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
