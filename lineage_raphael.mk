@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common VoltageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit ViPER4Android FX
+$(call inherit-product-if-exists, vendor/v4afx/config.mk)
+
 # chipset flag (one word only/no spacing)
 # friendly tip: builders can use init_xxx.cpp as workaround for spacing
 # e.g. property_override("ro.rice.chipset", "Snapdragon 870 5G");
