@@ -8,10 +8,10 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common DerpFest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_raphael
+PRODUCT_NAME := lineage_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
@@ -24,10 +24,30 @@ BUILD_FINGERPRINT := "google/raven/raven:12/SQ1D.220205.003/8069835:user/release
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRIVATE_BUILD_DESC="raven-user 12 SQ1D.220205.003 8069835 release-keys"
 
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_CHARGER := true
-DERP_BUILDTYPE := Official
-EXTRA_UDFPS_ANIMATIONS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_BLUR := true
+# maintainer flag (one word only/no spacing)
+RICE_MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
 
+# chipset flag (one word only/no spacing)
+RICE_CHIPSET := msmnile
+
+# gapps build flag, if not defined build type is vanilla
+WITH_GMS := true
+
+# Sushi Bootanimation (only 720/1080p/1440 supported. if not defined, bootanimation is google bootanimation)
+SUSHI_BOOTANIMATION := 1080
+
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
+BUILD_TYPE := UNOfficial
+
+# UDFPS ICONS/ANIMATIONS
+TARGET_HAS_UDFPS := true
+
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Quick tap feature
+TARGET_SUPPORTS_QUICK_TAP := true
+
+
+# disable/enable blur support, default is false
+TARGET_ENABLE_BLUR := true
