@@ -4,4 +4,4 @@ git clone https://github.com/yaap/hardware_qcom-caf_sm8150_audio -b twelve hardw
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_media -b twelve hardware/qcom-caf/sm8150/media
 git clone https://github.com/wadiehabib/vendor_xiaomi_raphael.git -b oss-12 vendor/xiaomi/raphael --depth=1
 git clone https://github.com/SOVIET-ANDROID/kernel_xiaomi_raphael.git -b 12.0 kernel/xiaomi/raphael --depth=1
-git clone https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/linux-x86/clang-proton --depth=1
+git clone https://gitlab.com/varunhardgamer/trb_clang.git -b 16 prebuilts/clang/host/linux-x86/trb_clang --depth=1
