@@ -16,19 +16,19 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Official-ify
-BUILD_TYPE := UNOFFICIAL
+RAVEN_LAIR := OFFICIAL
 
 # Maintainer Flag (one word only/no spacing)
-MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
+CORVUS_MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
 
 # CHIPSET flag (one word only/no spacing)
 CHIPSET := msmnile
 
 # GAPPS build flag, if not defined build type is vanilla
-BUILD_WITH_GAPPS := true
+USE_GAPPS := true
 
 # UDFPS ICONS/ANIMATIONS
 TARGET_HAS_UDFPS := true
@@ -53,7 +53,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_raphael
+PRODUCT_NAME := corvus_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
