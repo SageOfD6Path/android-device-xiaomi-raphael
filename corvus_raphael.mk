@@ -21,9 +21,11 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 # GAPPS build flag, if not defined build type is vanilla
 USE_GAPPS := true
 
+# UDFPS ICONS/ANIMATIONS
+FOD_RESOURCES := true
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
