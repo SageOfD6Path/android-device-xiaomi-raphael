@@ -27,6 +27,9 @@ PRODUCT_COMPRESSED_APEX := false
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 

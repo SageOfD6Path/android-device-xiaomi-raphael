@@ -128,6 +128,9 @@ TARGET_PROVIDES_KEYMASTER := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
+# MiuiCamera
+-include vendor/xiaomi/miuicamera/BoardConfigAnx.mk
+
 # Partition (Boot)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x06000000
 BOARD_FLASH_BLOCK_SIZE := 262144 #(BOARD_KERNEL_PAGESIZE * 64)
