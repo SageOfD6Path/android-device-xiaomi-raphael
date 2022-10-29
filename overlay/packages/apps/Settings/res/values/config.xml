@@ -18,4 +18,6 @@
          have distinct intensity levels -->
     <bool name="config_vibration_supports_multiple_intensities">true</bool>
 
+    <!-- Corvus Maintainer String -->
+    <string name="maintainer_string">ΛＲＣＨＩＴΣＣＴツ[@SageOfD6Path]</string>
 </resources>
