@@ -18,6 +18,9 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common CorvusOS stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
+# Official-ify
+CORVUS_MAINTAINER := Anirban 
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
