@@ -2,5 +2,6 @@ rm -rf hardware/qcom-caf/sm8150/display
 git clone https://github.com/SageOfD6Path/hardware_qcom_display.git -b 12-sm8150 hardware/qcom-caf/sm8150/display --depth=1
 git clone https://github.com/SageOfD6Path/vendor_xiaomi_raphael.git -b 13 vendor/xiaomi/raphael --depth=1
 git clone https://github.com/SageOfD6Path/bool-x_xiaomi_raphael.git -b supOS kernel/xiaomi/raphael --depth=1
-git clone https://gitlab.com/varunhardgamer/trb_clang.git -b 16 prebuilts/clang/host/linux-x86/trb_clang --depth=1
+git clone https://gitlab.com/XSans0/weebx-clang.git -b release/15-gr prebuilts/clang/host/linux-x86/clang-weebx --depth=1
 git clone https://github.com/LineageOS/android_packages_apps_Aperture.git -b lineage-20.0 packages/apps/Aperture --depth=1
+
