@@ -21,6 +21,9 @@ $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 # Official-ify
 CORVUS_MAINTAINER := Anirban 
 
+# GAPPS build flag, if not defined build type is vanilla
+USE_GAPPS := true
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
