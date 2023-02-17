@@ -39,6 +39,9 @@ SUPERIOR_OFFICIAL := true
 #Udfps Stuff
 SUPERIOR_UDFPS_ANIMATIONS := true
 
+# Superior Prebuilts
+USE_QUICKPIC := true
+
 # Quick Tap Feature
 TARGET_SUPPORTS_QUICK_TAP := true
 
