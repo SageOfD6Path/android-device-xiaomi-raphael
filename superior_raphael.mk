@@ -41,6 +41,7 @@ SUPERIOR_UDFPS_ANIMATIONS := true
 
 # Superior Prebuilts
 USE_QUICKPIC := true
+USE_DUCKDUCKGO := true
 
 # Quick Tap Feature
 TARGET_SUPPORTS_QUICK_TAP := true
