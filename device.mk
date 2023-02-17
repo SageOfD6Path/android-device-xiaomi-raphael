@@ -40,6 +40,10 @@ $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Get Perf aspects
+$(call inherit-product, device/qcom/common/system/perf/qti-perf.mk)
+$(call inherit-product, device/qcom/common/vendor/perf-legacy/qti-perf-legacy.mk)
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
