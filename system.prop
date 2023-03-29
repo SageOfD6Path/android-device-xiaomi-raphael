@@ -162,3 +162,6 @@ dalvik.vm.image-dex2oat-filter=everything
 # WiFi Scan Interval (default = 15s)
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.supplicant_scan_interval=600
+
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
