@@ -110,9 +110,6 @@ DEVICE_MATRIX_FILE := \
 ODM_MANIFEST_FILES += \
     $(DEVICE_PATH)/vintf/manifest-qva.xml
 
-ODM_MANIFEST_SKUS += raphael
-ODM_MANIFEST_RAPHAEL_FILES := $(DEVICE_PATH)/vintf/manifest_nfc.xml
-
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
