@@ -12,9 +12,9 @@
     "remote": "SuperiorOS-Devices"
   },
   {
-    "repository": "XSans0/weebx-clang",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-weebx",
-    "branch": "release/15-gr",
+    "repository": "onettboots/boolx-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/boolx-clang",
+    "branch": "Clang-17.0_x86",
     "remote": "gitlab"
   },
   {
@@ -26,7 +26,19 @@
   {
     "repository": "SageOfD6Path/vendor_xiaomi_miuicamera",
     "target_path": "vendor/xiaomi/miuicamera",
-    "branch": "miui",
+    "branch": "thirteen",
     "remote": "gitlab"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-20.0",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-20",
+    "remote": "github"
   }
 ]
