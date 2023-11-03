@@ -302,6 +302,15 @@ persist.vendor.radio.sib16_support=1
 # Shutdown
 sys.vendor.shutdown.waittime=500
 
+# SurfaceFlinger
+debug.sf.early.sf.duration=16000000
+debug.sf.early.app.duration=16500000
+debug.sf.earlyGl.sf.duration=13500000
+debug.sf.earlyGl.app.duration=21000000
+debug.sf.late.sf.duration=10500000
+debug.sf.late.app.duration=20500000
+debug.sf.use_phase_offsets_as_durations=1
+
 # SoC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8150
