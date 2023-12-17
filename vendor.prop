@@ -167,7 +167,6 @@ ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.set_idle_timer_ms?=80
 ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.set_display_power_timer_ms=1000
-ro.surface_flinger.use_content_detection_for_refresh_rate=true
 vendor.display.comp_mask=0
 vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
 vendor.display.disable_decimation=1
@@ -178,8 +177,6 @@ vendor.display.disable_scaler=1
 vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_force_split=1
 vendor.display.enable_null_display=0
-vendor.display.enable_optimize_refresh=1
-debug.sf.frame_rate_multiple_threshold=60
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 persist.sys.sf.color_saturation=1.0
@@ -228,7 +225,8 @@ vendor.gatekeeper.disable_spu=true
 # Graphics
 debug.mdpcomp.logs=0
 debug.sdm.support_writeback=0
-debug.sf.auto_latch_unsignaled=true
+debug.sf.latch_unsignaled=0
+debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_gl_backpressure=1
 debug.sf.disable_client_composition_cache=1
 persist.sys.sf.color_saturation=1.0
@@ -242,7 +240,6 @@ debug.sf.treat_170m_as_sRGB=1
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.renderer=opengl
-debug.sf.auto_latch_unsignaled=true
 debug.sf.enable_egl_image_tracker=1
 debug.sf.enable_transaction_tracing=false
 
@@ -275,7 +272,6 @@ vendor.power.pasr.enabled=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.perf.scroll_opt=true
 
 # Printk
 persist.vendor.console.silent.config=1
