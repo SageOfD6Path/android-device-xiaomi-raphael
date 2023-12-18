@@ -187,6 +187,7 @@ vendor.display.qdcm.disable_factory_mode=1
 vendor.display.qdcm.mode_combine=1
 persist.sys.sf.native_mode=0
 persist.sys.sf.color_mode=9
+ro.surface_flinger.enable_frame_rate_override=false
 
 # Display post-processing
 ro.vendor.display.ad=1
