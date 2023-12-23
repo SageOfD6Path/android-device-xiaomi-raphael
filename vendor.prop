@@ -243,6 +243,7 @@ renderthread.skia.reduceopstasksplitting=true
 debug.hwui.renderer=opengl
 debug.sf.auto_latch_unsignaled=true
 debug.sf.enable_egl_image_tracker=1
+debug.sf.enable_transaction_tracing=false
 
 # IFAAService
 persist.vendor.sys.fp.udfps.location.X_Y=445,1931
