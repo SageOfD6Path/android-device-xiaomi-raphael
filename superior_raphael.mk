@@ -33,9 +33,6 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Disable/Enable Blur Support, default is false
 TARGET_ENABLE_BLUR := true
 
-# Officialify 
-SUPERIOR_OFFICIAL := true
-
 #Udfps Stuff
 SUPERIOR_UDFPS_ANIMATIONS := true
 
